@@ -40,7 +40,7 @@ def get_duration(wave_file, samplerate=16000):
 
 
 def audio_split(arguments):
-    audio_file = args.input
+    audio_file = args.inp
     min_silence = args.sil
     min_duration = args.min
     max_duration = args.max
